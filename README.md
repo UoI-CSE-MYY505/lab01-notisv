@@ -3,8 +3,8 @@
 ## UoI-CSE-MYY505 lab01
 
 ## Panagiotis Vouzalis
-Lab01Test.py passes (does not display any output) even if "matricNumber" value is different from ".matric" value. 
-This should not happen.
+Lab01Test.py passes (does not display any output) even if "matricNumber" value is different from ".matric" value.
+<br>This should not happen.
 
 ## Problem statement:
 Introduction to Risc-V assembly using Ripes.
