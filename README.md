@@ -5,6 +5,7 @@
 ## Panagiotis Vouzalis
 Lab01Test.py passes (does not display any output) even if "matricNumber" value is different from ".matric" value.
 <br>This should not happen.
+<br>To force an error to show up, try adding 7 zeros to the end of the "matricNumber" (e.g 69690000000 instead of 6969)
 
 ## Problem statement:
 Introduction to Risc-V assembly using Ripes.

@@ -9,7 +9,8 @@ from myy505TesterLib import *
 ################################################################
 # CHANGE THIS TO YOUR MATRIC NUMBER
 ################################################################
-matricNumber = 2653
+matricNumber = 2653 # actual matric number
+#matricNumber = 26530000000 # if you want to force an error to show up
 
 # Modifications/additions to the data labels of the program
 newLabels = {
