@@ -2,11 +2,7 @@
 
 ## UoI-CSE-MYY505 lab01
 
-## First-Name Last-Name
-
-**TODO - Update your name in this readme. Leave 1 space after the ## to preserve the text formating (markdown)**
-
-
+## Panagiotis Vouzalis
 
 ## Problem statement:
 Introduction to Risc-V assembly using Ripes.

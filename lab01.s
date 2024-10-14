@@ -11,8 +11,10 @@
 matric: # Words ending with ':' are **labels**
         # The common convention is to write labels starting from the leftmost column.
         # Try to keep label names short
-        .word 30  # This directive reserves enough space for a word in memory
-                  #  and initializes it with the specific value.
+        #.word 30  # This directive reserves enough space for a word in memory
+                   #  and initializes it with the specific value.
+        .word 2653 # load matric with the value 2653
+
 matricplus1:
         .word 0   
 
@@ -55,8 +57,9 @@ prog:   # Labels in code are used for control flow: if/then/else, loops, etc.
         #  test.
         # Labels do not take up space in memory. They are only used by the assembler
 
-        li         s0, 100         # Get value 100 into register s0. li - load immediate
-        
+        #li         s0, 100         # Get value 100 into register s0. li - load immediate
+        lw         s0, 0(a0)        # s0 gets the value of matric. a0 has the address of matric
+
         lw         s1, 0(a1)       # s1 gets the value of var1. a1 has the address of var1
         add        s1, s1,   s0    # s1 = var1 + s0
         sw         s1, 4(a0)       # matricplus1 = var1 + s0
